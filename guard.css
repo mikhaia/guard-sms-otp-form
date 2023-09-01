@@ -1,0 +1,13 @@
+.guard-fields .form-control {
+  width: 50px;
+  height: 50px;
+}
+
+.guard-fields .form-control::-webkit-outer-spin-button,
+.guard-fields .form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.guard-fields .form-control[type='number'] {
+  -moz-appearance: textfield;
+}
